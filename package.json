@@ -2,8 +2,10 @@
   "name": "ai-udemy",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,9 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "dotenv": "^17.2.3"
+    "@google/genai": "^1.30.0",
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.3",
+    "ts-node": "^10.9.2"
   }
 }
